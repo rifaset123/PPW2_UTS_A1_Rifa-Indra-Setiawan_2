@@ -1,4 +1,4 @@
-@extends('layouts')
+@extends('products.layouts')
 
 @section('content')
 
@@ -50,10 +50,10 @@
                             {{ $product->description }}
                         </div>
                     </div>
-        
+
             </div>
         </div>
-    </div>    
+    </div>
 </div>
-    
+
 @endsection
